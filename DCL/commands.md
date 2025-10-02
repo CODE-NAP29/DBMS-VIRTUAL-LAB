@@ -30,7 +30,7 @@ GRANT SELECT, INSERT ON employees TO Jagdish;
 GRANT ALL PRIVILEGES ON orders TO admin;
 ```
 
-### 2. Revoke
+## 2. Revoke
 
 **Purpose:** Remove privileges from a user or role.
 
