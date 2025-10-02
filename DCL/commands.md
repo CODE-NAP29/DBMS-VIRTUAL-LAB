@@ -49,7 +49,7 @@ REVOKE INSERT ON employees FROM Jagdish;
 REVOKE ALL PRIVILEGES ON orders FROM temp_user;
 ```
 
-### Copilot Use Tips
+## Copilot Use Tips
 - Prompt: "Generate SQL queries to grant SELECT, INSERT privileges on employees table to multiple users."
 - Prompt: "Suggest SQL to revoke all privileges from a user in SQL oracle."
 - Use Copilot to experiment with real-world roles and table access scenarios.
