@@ -13,17 +13,13 @@ This section focuses on commands that **control access and permissions** to the 
 ---
 
 ## 📂 Topics Covered
-Each command has its own `.md` file with:
+
 - Theory (simple explanation)  
 - Syntax  
 - Examples  
 - Practice Queries  
 - GitHub Copilot Prompts  
 
-| No. | Command / Concept | File |
-|-----|------------------|------|
-| 1   | GRANT            | [grant.md](grant.md) |
-| 2   | REVOKE           | [revoke.md](revoke.md) |
 
 ---
 
