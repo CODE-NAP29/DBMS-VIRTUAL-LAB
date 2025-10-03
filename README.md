@@ -1,4 +1,4 @@
-# # DBMS Virtual Lab
+# DBMS Virtual Lab
 
 A virtual lab environment designed to practice and understand **Database Management Systems (DBMS)** concepts using **Oracle SQL*Plus**.  
 This repository provides resources, setup instructions, syllabus, and example lab exercises to guide your DBMS learning journey.
