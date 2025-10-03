@@ -8,21 +8,39 @@ This branch is dedicated to helping you master the fundamentals of database sche
 
 ## 📋 What You'll Find in This Branch
 
-- **`schema/`**  
-  Contains ready-to-use SQL scripts for creating database schemas (`schema.sql`) and inserting sample data (`insert_sample.sql`).  
-  Use these scripts to set up your working database environment in Oracle SQL Plus or any Oracle-compatible client.
+# DDL SQL Learning Resources
 
-- **`prompts/ddl.md`**  
-  A curated set of Copilot prompts to help you explore, generate, and understand DDL commands.  
-  Use these prompts in VS Code with GitHub Copilot for interactive learning or automation.
+Welcome to the DDL SQL Learning Resources repository! This collection is designed to help you master Data Definition Language (DDL) commands in SQL through reference materials, practice exercises, and interactive prompts for **GitHub Copilot**.
 
-- **`examples/ddl_examples.sql`**  
-  Example SQL scripts demonstrating various DDL operations, best practices, and advanced schema features.
+---
 
-- **`exercises/experiment1.md`**  
-  A hands-on experiment guide focused on DDL tasks and schema creation.  
-  Follow the experiment steps, try the challenges, and practice running your scripts in SQL Plus.
+## Resources
 
+- [DDL Commands Reference](commands.md):  
+  Contains essential Data Definition Language (DDL) SQL commands with syntax and examples for easy reference.
+
+- [DDL Practice Questions](practice.md):  
+  Includes a variety of practice questions to help reinforce and test your understanding of DDL operations in SQL.
+
+- [DDL Copilot Prompts](prompts.md):  
+  Features curated prompts designed for use with **GitHub Copilot** to explore and deepen your knowledge of DDL concepts interactively.
+
+---
+
+## How to Use
+
+1. **commands.md**  
+   Review the most common DDL commands, their syntax, and see ready-to-use SQL code examples.
+
+2. **practice.md**  
+   Attempt the practice questions to strengthen your understanding and application of DDL concepts.
+
+3. **prompts.md**  
+   Use these prompts with **GitHub Copilot** to generate, explain, and experiment with DDL code in real-time.
+
+---
+
+Happy Learning!
 ---
 
 ## 🧪 How to Use This Branch
