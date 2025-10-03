@@ -1,107 +1,82 @@
-# DBMS Virtual Lab
+# 📂 DDL Commands & Schema Branch
 
-Welcome to the **DBMS Virtual Lab**!  
-This repository provides a hands-on environment to learn and practice Database Management Systems (DBMS) concepts using Oracle SQL. You will work through practical experiments, explore common DBMS operations, and use GitHub Copilot as your coding partner to enhance and automate your learning.
+Welcome to the **DDL Commands & Schema branch** of the Oracle DBMS Virtual Lab!
 
----
-
-## 🛠️ Setting Up Your DBMS Environment
-
-To get started, you will need access to an Oracle Database. You can use:
-
-- **Oracle Database Express Edition (XE):**  
-  Download and install the free version from [Oracle XE Downloads](https://www.oracle.com/database/technologies/xe-downloads.html).
-
-- **Oracle Live SQL:**  
-  Practice online without installation at [Oracle Live SQL](https://livesql.oracle.com/).
-
-- **Oracle Cloud Free Tier:**  
-  Set up a cloud-based Oracle database at [Oracle Cloud Free Tier](https://www.oracle.com/cloud/free/).
-
-**Recommended Tools:**
-- SQL*Plus, Oracle SQL Developer, or any Oracle-compatible SQL client.
-- Visual Studio Code with [GitHub Copilot](https://github.com/features/copilot) enabled for code suggestions and automation.
+This branch is dedicated to helping you master the fundamentals of database schema design and Data Definition Language (DDL) commands using Oracle SQL. Here, you'll find everything you need to understand, practice, and experiment with DDL operations such as creating, altering, and dropping tables, as well as defining keys and constraints.
 
 ---
 
-## 📚 What Will You Learn in This Lab?
+## 📋 What You'll Find in This Branch
 
-This repository is structured to cover the following DBMS topics:
+# DDL SQL Learning Resources
 
-- **Database Schema Design:**  
-  Learn to create tables, set data types, and define keys and constraints.
-
-- **Data Manipulation (DML):**  
-  Practice inserting, updating, and deleting data.
-
-- **Data Querying:**  
-  Write SELECT queries, apply filters, sorting, grouping, and aggregation.
-
-- **Joins and Relationships:**  
-  Explore inner, outer, and self joins; understand foreign keys and table relationships.
-
-- **Views:**  
-  Create and use views for abstraction and security.
-
-- **Automation & Copilot Integration:**  
-  Use Copilot to generate SQL, automate repetitive tasks, and debug queries.
-
-- **Project-style Experiments:**  
-  Complete hands-on experiments to build real-world database solutions (e.g., Library DB, Inventory, Student Management).
+Welcome to the DDL SQL Learning Resources repository! This collection is designed to help you master Data Definition Language (DDL) commands in SQL through reference materials, practice exercises, and interactive prompts for **GitHub Copilot**.
 
 ---
 
-## 🌳 Branch Structure
+## Resources
 
-This repository follows a simple branch structure to organize the lab work:
+- [DDL Commands Reference](commands.md):  
+  Contains essential Data Definition Language (DDL) SQL commands with syntax and examples for easy reference.
 
-- **main:**  
-  The default branch containing the introduction to the DBMS Virtual Lab, instructions on how to use the repository, and general guidance.
+- [DDL Practice Questions](practice.md):  
+  Includes a variety of practice questions to help reinforce and test your understanding of DDL operations in SQL.
 
-- **experiments:**  
-  Dedicated branch where all DBMS experiments are maintained.  
-  Inside this branch, content is organized by **topic**. Each topic folder typically contains:
-  
-  - **About Topic:**  
-    A short explanation of the concept (e.g., DDL, DML, Joins, Views).  
-
-  - **Examples:**  
-    SQL scripts demonstrating the concept in Oracle SQL\*Plus.  
-
-  - **Copilot Prompts to Explore:**  
-    Suggested GitHub Copilot prompts to help students generate queries, explanations, and variations.  
-
-  - **Exercises:**  
-    Exercises and questions for students to attempt independently.  
-
-
-> **Note:** Always read the README and instructions for each branch before starting. Switch branches using `git checkout branch-name` or via your GitHub interface.
+- [DDL Copilot Prompts](prompts.md):  
+  Features curated prompts designed for use with **GitHub Copilot** to explore and deepen your knowledge of DDL concepts interactively.
 
 ---
 
-## 🚦 Getting Started
+## How to Use
 
-1. **Clone this repository:**  
-   `git clone https://github.com/<your-org-or-username>/oracle-dbms-virtual-lab.git`
+1. **commands.md**  
+   Review the most common DDL commands, their syntax, and see ready-to-use SQL code examples.
 
-2. **Set up your Oracle DBMS environment** (see above).
+2. **practice.md**  
+   Attempt the practice questions to strengthen your understanding and application of DDL concepts.
 
-3. **Navigate the folders:**  
-
-4. **Start with the `/exercises/` folder** and follow the progression.
-
-5. **Use Copilot**: Try prompts from `/prompts/` in VS Code for coding help, explanations, and automation.
+3. **prompts.md**  
+   Use these prompts with **GitHub Copilot** to generate, explain, and experiment with DDL code in real-time.
 
 ---
 
-## ✨ Tips for Success
+Happy Learning!
+---
 
-- Use comments and documentation in your SQL scripts for clarity.
-- Try modifying prompts and see how Copilot auto-generates SQL for you.
-- Explore multiple branches for more challenges or solutions.
-- Don’t hesitate to experiment beyond the suggested tasks!
+## 🧪 How to Use This Branch
+
+1. **Start with `schema/schema.sql`**  
+   Review and execute the script to create all necessary tables and constraints in your Oracle database.
+
+2. **Insert Sample Data**  
+   Use `schema/insert_sample.sql` to populate your tables for further practice and querying.
+
+3. **Explore with Prompts**  
+   Open `prompts/ddl.md` and use the suggested prompts in Copilot to generate or explain DDL statements.
+
+4. **Practice with Examples**  
+   Study and run the examples in `examples/ddl_examples.sql` to see DDL operations in action.
+
+5. **Complete the Experiment**  
+   Work through the tasks in `exercises/experiment1.md` to reinforce your understanding and skills.
 
 ---
 
-Happy learning!  
-Feel free to open issues or discussions for help, suggestions, or to contribute improvements.
+## 🛠️ Prerequisites
+
+- Oracle Database (XE, Live SQL, or Cloud)
+- SQL*Plus, Oracle SQL Developer, or a compatible SQL client
+- Visual Studio Code with GitHub Copilot (recommended for prompts)
+
+---
+
+## 🎯 Goals
+
+- Build confidence in writing and understanding DDL commands
+- Learn best practices in schema design and table creation
+- Use Copilot to automate and explain DDL operations
+- Prepare a solid foundation for advanced DBMS topics
+
+---
+
+Happy learning and schema building!
