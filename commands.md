@@ -32,4 +32,25 @@ ROLLBACK TO sp1; -- Undo changes after sp1
 
 ```
 
+## 4. SET TRANSACTION
+- Controls properties of a transaction (read-only, isolation level).
+
+``` sql
+SET TRANSACTION READ ONLY;
+```
+
+
+
+## 🔒 Concurrency Examples
+
+```sql
+-- Transaction 1
+BEGIN;
+UPDATE accounts SET balance = balance - 500 WHERE id = 1;
+
+-- Transaction 2
+BEGIN;
+UPDATE accounts SET balance = balance - 500 WHERE id = 1; -- waits due to lock
+```
+
 ### ✅ Tip: Use COMMIT carefully—once committed, changes cannot be undone.
