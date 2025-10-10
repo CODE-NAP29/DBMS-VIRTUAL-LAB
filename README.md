@@ -6,6 +6,38 @@ This repository provides resources, setup instructions, syllabus, and example la
 
 ---
 
+## 🚀 GETTING STARTED...
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/CODE-NAP29/DBMS-VIRTUAL-LAB.git
+cd DBMS-VIRTUAL-LAB
+```
+
+### 2. Open vs code and go to extensions and install below :
+- **GitHub Copilot**
+- **SQLTools** (for running SQL queries directly from VS Code)
+- **SQLite** (if you want to practice with SQLite as well)
+
+### 3. Open the database
+- In VS Code, go to the SQLite Explorer tab (from the installed extension).
+
+- Click “Open Database” → Select database/company.db from this repo.
+
+- Expand the database to see all tables:
+
+- department
+
+- employee
+
+- project
+
+- works_on
+
+### ✅ NOTE: *Now you can learn from our contents folders respectively, practice queries on these tables and ask doubts or tips to github copilot extension in vs code, Hence all in one at your fingertips in VS CODE only!*
+
+##
+
 ## 🚀 Why GitHub Copilot for DBMS?
 
 Instead of memorizing queries, you can **learn by doing** with Copilot:
